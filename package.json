@@ -1,25 +1,30 @@
 {
-  "name": "cucumber-project",
+  "name": "cucumber_project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open",
-    "runOnChrome": "cypress run --browser chrome"
+    "cypress:run": "cypress run",
+    "cypress:run:chrome": "cypress run --browser chrome --headless",
+    "cypress:open": "cypress open"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/miragekamran/cucumber-project.git"
+    "url": "https://git.delta.com/occ/aams_test_automation.git"
   },
-  "author": "",
+  "author": "Mirage Kamran",
   "license": "ISC",
   "devDependencies": {
+    "cucumber-json-report-formatter": "^0.1.4",
     "cypress": "^13.6.2",
     "cypress-cucumber-preprocessor": "^4.3.1",
-    "multiple-cucumber-html-reporter": "^2.0.0"
+    "cypress-terminal-report": "^5.3.10",
+    "cypress-xpath": "^2.0.1",
+    "multiple-cucumber-html-reporter": "^3.6.0"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/e2e/",
     "cucumberJson": {
       "generate": true,
       "outputFolder": "cypress/cucumber-json",

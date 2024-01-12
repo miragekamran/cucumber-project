@@ -1,0 +1,16 @@
+{
+    "json": {
+        "enabled": true,
+        "output": "cucumber-json/log.json",
+        "formater": "cucumber-json-formatter.exe"
+    },
+    "messages": {
+        "enabled": true,
+        "output": "cucumber-json/messages.ndjson"
+    },
+    "stepDefinitions": [
+        "[filepath]/**/*/{js,ts",
+        "[filepath].{js,ts}",
+        "cypress/e2e/aams-ui/*.{js,ts}"
+    ]
+}
