@@ -10,7 +10,7 @@
 [![Cucumber](https://img.shields.io/badge/Cucumber-6.0.7-green)](https://cucumber.io/docs/guides/overview/)
 ---
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://airport-auth.apps.dr1a1.paasdev.delta.com/airport-authorizations">
     <picture>
       <source media="(prefers-color-scheme: dark)"  srcset="https://deltaairlines-my.sharepoint.com/:i:/r/personal/mirage_kamran_delta_com/Documents/Pictures/aams.png?csf=1&web=1&e=vT368D">
@@ -18,7 +18,7 @@
       <img alt="Cypress Logo" src="https://deltaairlines-my.sharepoint.com/:i:/r/personal/mirage_kamran_delta_com/Documents/Pictures/aams.png?csf=1&web=1&e=vT368D">
     </picture>    
   </a>
-</p>
+</p> -->
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -46,7 +46,7 @@
 <!-- ABOUT THE FRAMEWORK -->
 ## About The Framework
 
-This repo contains e2e tests written in Cypress for Airport Authorization Management System (AAMS).
+This repo contains e2e tests written in Cypress for a sample website.
 
 
 
